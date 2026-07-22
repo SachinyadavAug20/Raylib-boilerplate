@@ -1,8 +1,4 @@
 CXX      ?= g++
-game
-obj/
-*.exe
-*.dsym
 CXXFLAGS ?= -std=c++14 -Wall -O2
 LDFLAGS   = $(shell pkg-config --libs raylib) -lGL -lm -lpthread -ldl -lrt -lX11
 

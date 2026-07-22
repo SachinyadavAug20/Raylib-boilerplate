@@ -1,4 +1,4 @@
-# raylib-intro
+# Raylib-boilerplate
 
 A minimal C++ raylib boilerplate for Neovim.
 
@@ -33,4 +33,3 @@ Or in Neovim: press `F5` to build & run, `F6` for debug build & run.
 ## Customizing
 
 Add new `.cpp` files in `src/` — the Makefile picks them up automatically via wildcard.
-# Raylib-boilerplate
