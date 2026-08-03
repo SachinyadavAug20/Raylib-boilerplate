@@ -1,15 +1,18 @@
 #include <raylib.h>
 
+#include "resource_dir.h"
+
 const int windowWidth=600;
 const int windowHeight=600;
 const int ballSpeed=10;
 int main(){
+  SearchAndSetResourceDir("resources");
   int ballX=windowWidth/2;
   int ballY=windowHeight/2;
   Color green={20,160,133,255};
 
   InitWindow(windowWidth, windowHeight, "Raylib");// width,height,title
-  SetTargetFPS(60); 
+  SetTargetFPS(60);
   // Game loop (will run 60 times a second)
   while (WindowShouldClose()==false) {
     // 1.Event handling
